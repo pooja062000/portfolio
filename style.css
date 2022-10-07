@@ -1,0 +1,501 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+.outer{
+		width: 100%;
+		height: 3000px;
+		border: 6px solid red;
+}
+
+.banner{
+		width: 100%;
+		height: 100vh;
+		border: 4px solid green;
+		background-image: url(https://mixkit.imgix.net/videos/preview/mixkit-woman-typing-on-her-laptop-in-a-coffee-shop-206-0.jpg?q=80&auto=format%2Ccompress);
+		background-size: cover;
+		background-position: center;
+}
+
+.border{
+		width: 100%;
+		height: 100px;
+		margin-top: 20px;
+		/*border: 2px solid red;*/
+}
+
+.logo{
+	width: 50%;
+	height: 97px;
+	float: left;
+	margin: 0 auto;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-left: 20px;
+	border: 3px solid blue;
+}
+
+.section{
+		width: 50%;
+		height: 97px;
+		float: left;
+		border: 3px solid white;
+}
+
+.menu{
+	margin: 0 auto;
+	font-size: 26px;
+	color: white;
+	padding-left: 120px;
+	padding-top: 25px;	
+}
+
+ul{
+	list-style-type: none;
+}
+li{
+	float: left;
+	padding: 10px 20px;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+
+a:hover{
+	color: green;		
+}
+
+.top_name{
+	color: white;
+	font-size: 55px;
+	text-align: center;
+	padding-top: 40px;
+	font-weight: 500;
+}
+
+.color{
+		color: lightblue;
+}
+
+.row{
+	width: 100%;
+	height: 220px;
+	margin-top: 200px;
+	/*border: 2px solid blue;*/
+}
+
+.col{
+	width: 60%;
+	height: 217px;
+	margin: 0 auto;
+	/*border: 2px solid brown;*/
+}
+
+.developer1{
+			color: white;
+			font-size: 40px;
+			text-align: center;
+			padding-top: 40px;
+}
+
+.welcome{
+		width: 100%;
+		height: 358px;
+		border: 2px solid blue;
+		margin-top: 50px;
+}
+
+.site{
+	width: 70%;
+	height: 135px;
+	border: 2px solid blue;
+	margin: 0 auto;
+}
+
+.site h1{
+		text-align: center;
+}
+
+.site p{
+		text-align: center;
+		padding-top: 30px;
+		color: gray;
+		font-size: 15px;
+		line-height: 1.5;
+}	
+
+.skills{
+		width: 90%;
+		height: 236.4px;
+		margin: 0 auto;
+		margin-top: 40px;
+}
+
+.skills1{
+		width: 33.3%;
+		height: 90px;
+		float: left;
+		padding-left: 50px;
+		border: 2px solid red;
+}
+
+.My-design{
+			width: 100%;
+			height: 5px;
+			margin-top: 22px;
+			border-radius: 15px;
+			background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
+			border: 1px solid blue;
+}
+
+.skills1 h4{
+			margin-top: 20px;
+			font-size: 15px;
+    		color: gray;
+}	
+
+.skills2{
+		width: 33.3%;
+		height: 90px;
+		float: left;
+		padding-left: 50px;
+		border: 2px solid red;
+}
+
+.skills2 h4{
+			margin-top: 20px;
+			font-size: 15px;
+    		color: gray;
+}
+
+.My_marketing{
+			width: 100%;
+			height: 5px;
+			margin-top: 22px;
+			border-radius: 15px;
+			background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
+			border: 1px solid blue;
+}	
+
+.skills3{
+		width: 33.3%;
+		height: 90px;
+		float: left;
+		padding-left: 50px;
+		border: 2px solid blue;
+}
+
+.skills h4{
+			margin-top: 20px;
+			font-size: 15px;
+    		color: gray;			
+}	
+
+.My_photography{
+			width: 100%;
+			height: 5px;
+			margin-top: 22px;
+			border-radius: 15px;
+			background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
+			border: 1px solid blue;
+}
+
+.skills4{
+		width: 33.3%;
+		height: 90px;
+		float: left;
+		padding-left: 50px;
+		border: 2px solid blue;
+}
+
+.skills4 h4{
+			margin-top: 20px;
+			font-size: 15px;
+    		color: gray;
+}	
+
+.My_branding{
+		width: 100%;
+		height: 5px;
+		margin-top: 22px;
+		border-radius: 15px;
+		background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
+		border: 1px solid blue;
+}
+
+.skills5{
+		width: 33.3%;
+		height: 90px;
+		float: left;
+		padding-left: 50px;
+		border: 2px solid blue;
+}	
+
+.skills5 h4{
+			margin-top: 20px;
+			font-size: 15px;
+    		color: gray;
+ }	
+
+.My_development{
+				width: 100%;
+				height: 5px;
+				margin-top: 22px;
+				border-radius: 15px;
+				background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
+				border: 1px solid blue;
+}
+
+.skills6{
+		width: 33.3%;
+		height: 90px;
+		float: left;
+		padding-left: 50px;
+		border: 2px solid blue;
+}
+
+.skills6 h4{
+			margin-top: 20px;
+			font-size: 15px;
+    		color: gray;  			
+}
+
+.My_skills{
+		width: 100%;
+		height: 5px;
+		margin-top: 22px;
+		border-radius: 15px;
+		background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
+		border: 1px solid blue;
+}
+
+.background_img{
+				width: 100%;
+				height: 800px;
+				margin-top: 10px;
+				border: 2px solid brown;
+				background-image: url(https://www.teahub.io/photos/full/213-2137769_dslr-camera-with-girl.jpg);
+				background-size: cover;	
+				background-attachment: fixed;
+				background-position: top;
+   				 position: relative;
+    			z-index: 0;			
+}
+
+.container{
+		width: 100%;
+		height: 796px;
+		border: 2px solid yellow;
+}
+
+.available{
+			width: 60%;
+			height: 110px;
+			margin: 0 auto;
+			border: 1px solid white;
+			margin-top: 120px;	
+}
+
+.available h3{
+			color: white;
+			text-align: center;
+}
+
+.available p{
+			color: white;
+			text-align: center;
+			padding-top: 20px;
+			line-height: 1.6;
+}
+
+.vestibulum{
+		width: 25%;
+		height: 315px;
+		float: left;
+		border: 1px solid #828282;
+		margin-left: 12%;
+		margin-top: 70px;
+		border-radius: 4px;
+		background: rgba(255, 255, 255, 0.2);
+}
+
+.three_gride{
+			width: 85%;
+			height: 260px;
+			margin: 0 auto;
+			margin-top: 27px;
+			/*border: 1px solid orangered;*/
+}
+
+.colum{
+	width: 25%;
+	height: 40px;
+	border: 1px solid red;
+	margin: 0 auto;
+}
+
+.vestibulum h4{
+	/*width: 100%;*/
+	/*height: 30px;*/
+	margin: 0 auto;
+	color: powderblue;
+	text-align: center;
+	margin-top: 30px;
+	font-size: 20px;
+	font-weight: 700;	
+}
+
+.col2{
+	color: white;
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: center;
+	line-height: 1.4;
+}
+.vestibulum2{
+		width: 25%;
+		height: 315px;
+		float: left;
+		margin-top: 70px;
+		border: 1px solid #828282;
+		background: rgba(255, 255, 255, 0.2);
+		margin-left: 20px;
+		border-radius: 4px;		
+}
+
+.logo1{
+		width: 25%;
+		height: 40px;
+		margin: 0 auto;
+		border: 1px solid brown;
+}
+
+.vestibulum2 h2{
+				font-size: 20px;
+				color: paleturquoise;
+				margin-top: 30px;
+				text-align: center;
+				font-weight: 700;
+}	
+.vestibulum3{
+		width: 25%;
+		height: 315px;
+		float: left;
+		margin-top: 70px;
+		background: rgba(255, 255, 255, 0.2);
+		border: 1px solid #828282;;
+		border-radius: 4px;
+		margin-left: 20px
+}
+.vestibulum3 h5{
+				font-size: 20px;
+				color: paleturquoise;
+				margin-top: 30px;
+				text-align: center;
+				font-weight: 700;
+}
+
+.col3{
+	color: white;
+	font-size: 16px;
+	padding-top: 20px;
+	text-align: center;																				https://asimequbal-portfolio.netlify.app/
+	line-height: 1.4;                    																	https://github.com/Asimequbal/asim-portfolio-website.git
+}
+
+.all-project{
+			width: 100%;
+			height: 900px;
+			margin-top: 40px;
+			border: 2px solid navy;
+}
+
+.main-heading{
+			width: 60%;
+			height: 130px;
+			margin: 0 auto;
+			border: 2px solid paleturquoise;
+}
+
+.nulla{
+		font-size: 20px;
+		font-size: 33px;
+		line-height: 40px;
+		text-align: center;
+}
+.tablete{
+		font-size: 15px;
+		text-align: center;
+		line-height: 20px;
+		color: #585858;
+}
+
+.laptop_img{
+			width: 24%;
+    		height: 250px;
+			float: left;
+			border: 1px solid olive;
+			margin-left: 170px;
+			margin-top: 30px;
+			background-image: url(images/photo1.webp);
+			background-size: cover;
+			background-position: center;
+			border-radius: 4px;
+}
+
+.laptop_img2{
+			width: 24%;
+    		height: 250px;
+			float: left;
+			margin: 30px;
+			border: 1px solid olive;
+			background-image: url(images/photo2.jpg);
+			background-size: cover;
+			background-position: center
+			border-radius: 4px;
+}	
+
+
+.laptop_img3{
+			width: 24%;
+    		height: 250px;
+			float: left;
+			margin-top: 30px;
+			border: 1px solid olive;
+			background-image: url(https://thumbs.dreamstime.com/b/female-hands-typing-laptop-keyboard-screen-table-flowers-phone-female-hands-typing-laptop-keyboard-screen-101452063.jpg);
+			background-size: cover;
+			background-position: center;
+			border-radius: 4px;
+}	
+
+.book{
+	width: 24%;
+	height: 250px;
+	float: left;
+	margin-bottom: -220px;
+	border: 1px solid gray;
+		
+}
+
+.book1{
+		width: 24%;
+		height: 250px;
+		float: left;
+		margin-left: 170px;
+		border: 1px solid olive;
+}
+
+.book2{
+		width: 24%;
+		height: 250px;
+		float: left;
+		border: 1px solid red;				
+
+}		
