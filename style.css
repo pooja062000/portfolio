@@ -1,347 +1,444 @@
-*{
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-body{
-	font-family: 'Work Sans', sans-serif;
+body {
+	font-family: 'Nunito Sans', sans-serif;
 }
 
-.outer{
-		width: 100%;
-		height: 3000px;
-		border: 6px solid red;
+.about_button {
+	background: #35a22c;
+	padding: 13px 30px;
+	color: #fff;
+	font-size: 16px;
+	text-transform: capitalize;
+	border-radius: 5px;
 }
 
-.banner{
-		width: 100%;
-		height: 100vh;
-		border: 4px solid green;
-		background-image: url(https://mixkit.imgix.net/videos/preview/mixkit-woman-typing-on-her-laptop-in-a-coffee-shop-206-0.jpg?q=80&auto=format%2Ccompress);
-		background-size: cover;
-		background-position: center;
+.about_button:hover {
+	color: yellow;
 }
 
-.border{
-		width: 100%;
-		height: 100px;
-		margin-top: 20px;
-		/*border: 2px solid red;*/
+.outer {
+	width: 100%;
+	/*height: 5000px;*/
+	/*border: 6px solid red;*/
 }
 
-.logo{
+.banner {
+	width: 100%;
+	height: 80vh;
+	float: left;
+	/*border: 4px solid green;*/
+	background-image: url('https://images.unsplash.com/photo-1503945438517-f65904a52ce6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+.border {
+	width: 100%;
+	height: 80px;
+	/* margin-top: 20px; */
+	/*border: 2px solid red;*/
+	background-color: white;
+	color: black;
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	box-shadow: 0px 0px 8px 1px #888888;
+	padding: 0 50px;
+}
+
+.border a {
+	color: #222222;
+}
+
+.menu ul {
+	float: right;
+}
+
+.logo {
 	width: 50%;
-	height: 97px;
+	height: 80px;
 	float: left;
 	margin: 0 auto;
 	font-size: 30px;
-	padding-top: 30px;
+	padding-top: 20px;
 	padding-left: 20px;
-	border: 3px solid blue;
-}
-
-.section{
-		width: 50%;
-		height: 97px;
-		float: left;
-		border: 3px solid white;
-}
-
-.menu{
-	margin: 0 auto;
-	font-size: 26px;
 	color: white;
-	padding-left: 120px;
-	padding-top: 25px;	
+	/*border: 3px solid blue;*/
 }
 
-ul{
+.section {
+	width: 50%;
+	height: 80px;
+	float: left;
+	/*border: 3px solid white;*/
+}
+
+.menu {
+	margin: 0 auto;
+	font-size: 18px;
+	padding-left: 120px;
+	padding-top: 16px;
+}
+
+
+ul {
 	list-style-type: none;
 }
-li{
+
+li {
 	float: left;
 	padding: 10px 20px;
 }
-a{
+
+a {
 	color: white;
 	text-decoration: none;
 }
 
-a:hover{
-	color: green;		
+a:hover {
+	color: green;
 }
 
-.top_name{
+.top_name {
 	color: white;
-	font-size: 55px;
+	font-size: 56px;
 	text-align: center;
 	padding-top: 40px;
-	font-weight: 500;
+	font-weight: 700;
 }
 
-.color{
-		color: lightblue;
+.color {
+	color: lightblue;
 }
 
-.row{
+.row {
 	width: 100%;
 	height: 220px;
-	margin-top: 200px;
+	/* margin-top: 200px; */
 	/*border: 2px solid blue;*/
 }
 
-.col{
+
+.col {
 	width: 60%;
 	height: 217px;
 	margin: 0 auto;
 	/*border: 2px solid brown;*/
 }
 
-.developer1{
-			color: white;
-			font-size: 40px;
-			text-align: center;
-			padding-top: 40px;
+.developer1 {
+	color: white;
+	font-size: 24px;
+	text-align: center;
+	padding-top: 40px;
 }
 
-.welcome{
-		width: 100%;
-		height: 358px;
-		border: 2px solid blue;
-		margin-top: 50px;
+.about {
+	width: 100%;
+	/* height: 358px; */
+	float: left;
+	/*border: 2px solid blue;*/
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
 
-.site{
-	width: 70%;
-	height: 135px;
-	border: 2px solid blue;
+.site {
+	width: 60%;
+	height: 137px;
+	/*border: 2px solid blue;*/
 	margin: 0 auto;
 }
 
-.site h1{
-		text-align: center;
+.site h1 {
+	text-align: center;
+	font-size: 38px;
 }
 
-.site p{
-		text-align: center;
-		padding-top: 30px;
-		color: gray;
-		font-size: 15px;
-		line-height: 1.5;
-}	
-
-.skills{
-		width: 90%;
-		height: 236.4px;
-		margin: 0 auto;
-		margin-top: 40px;
+.site p {
+	text-align: center;
+	padding-top: 24px;
+	color: gray;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
-.skills1{
-		width: 33.3%;
-		height: 90px;
-		float: left;
-		padding-left: 50px;
-		border: 2px solid red;
+.skills {
+	width: 90%;
+	height: 236.4px;
+	margin: 0 auto;
+	margin-top: 40px;
 }
 
-.My-design{
-			width: 100%;
-			height: 5px;
-			margin-top: 22px;
-			border-radius: 15px;
-			background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
-			border: 1px solid blue;
+.skills1 {
+	width: 33.3%;
+	height: 90px;
+	float: left;
+	padding-left: 50px;
+	/*border: 2px solid red;*/
 }
 
-.skills1 h4{
-			margin-top: 20px;
-			font-size: 15px;
-    		color: gray;
-}	
-
-.skills2{
-		width: 33.3%;
-		height: 90px;
-		float: left;
-		padding-left: 50px;
-		border: 2px solid red;
+.my-design {
+	width: 100%;
+	height: 5px;
+	margin-top: 22px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #EEF2E6, #EEF2E6);
+	/*border: 1px solid blue;*/
 }
 
-.skills2 h4{
-			margin-top: 20px;
-			font-size: 15px;
-    		color: gray;
+.my-design-progress {
+	width: 50%;
+	height: 5px;
+	background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%);
+	border-radius: 15px;
 }
 
-.My_marketing{
-			width: 100%;
-			height: 5px;
-			margin-top: 22px;
-			border-radius: 15px;
-			background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
-			border: 1px solid blue;
-}	
-
-.skills3{
-		width: 33.3%;
-		height: 90px;
-		float: left;
-		padding-left: 50px;
-		border: 2px solid blue;
+.skills1 h4 {
+	margin-top: 20px;
+	font-size: 15px;
+	color: gray;
 }
 
-.skills h4{
-			margin-top: 20px;
-			font-size: 15px;
-    		color: gray;			
-}	
-
-.My_photography{
-			width: 100%;
-			height: 5px;
-			margin-top: 22px;
-			border-radius: 15px;
-			background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
-			border: 1px solid blue;
+.skills2 {
+	width: 33.3%;
+	height: 90px;
+	float: left;
+	padding-left: 50px;
+	/*border: 2px solid red;*/
 }
 
-.skills4{
-		width: 33.3%;
-		height: 90px;
-		float: left;
-		padding-left: 50px;
-		border: 2px solid blue;
+.skills2 h4 {
+	margin-top: 20px;
+	font-size: 15px;
+	color: gray;
 }
 
-.skills4 h4{
-			margin-top: 20px;
-			font-size: 15px;
-    		color: gray;
-}	
-
-.My_branding{
-		width: 100%;
-		height: 5px;
-		margin-top: 22px;
-		border-radius: 15px;
-		background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
-		border: 1px solid blue;
+.my_marketing {
+	width: 100%;
+	height: 5px;
+	margin-top: 22px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #EEF2E6, #EEF2E6);
+	/*border: 1px solid blue;*/
 }
 
-.skills5{
-		width: 33.3%;
-		height: 90px;
-		float: left;
-		padding-left: 50px;
-		border: 2px solid blue;
-}	
-
-.skills5 h4{
-			margin-top: 20px;
-			font-size: 15px;
-    		color: gray;
- }	
-
-.My_development{
-				width: 100%;
-				height: 5px;
-				margin-top: 22px;
-				border-radius: 15px;
-				background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
-				border: 1px solid blue;
+.my-marketing-progress {
+	width: 80%;
+	height: 5px;
+	background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%);
+	border-radius: 15px;
 }
 
-.skills6{
-		width: 33.3%;
-		height: 90px;
-		float: left;
-		padding-left: 50px;
-		border: 2px solid blue;
+.skills3 {
+	width: 33.3%;
+	height: 90px;
+	float: left;
+	padding-left: 50px;
+	/*border: 2px solid blue;*/
 }
 
-.skills6 h4{
-			margin-top: 20px;
-			font-size: 15px;
-    		color: gray;  			
+.skills h4 {
+	margin-top: 20px;
+	font-size: 15px;
+	color: gray;
 }
 
-.My_skills{
-		width: 100%;
-		height: 5px;
-		margin-top: 22px;
-		border-radius: 15px;
-		background: linear-gradient(to right,#EEF2E6 ,#EEF2E6);
-		border: 1px solid blue;
+.my_photography {
+	width: 100%;
+	height: 5px;
+	margin-top: 22px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #EEF2E6, #EEF2E6);
+	/*border: 1px solid blue;*/
 }
 
-.background_img{
-				width: 100%;
-				height: 800px;
-				margin-top: 10px;
-				border: 2px solid brown;
-				background-image: url(https://www.teahub.io/photos/full/213-2137769_dslr-camera-with-girl.jpg);
-				background-size: cover;	
-				background-attachment: fixed;
-				background-position: top;
-   				 position: relative;
-    			z-index: 0;			
+.my-photography-progress {
+	width: 60%;
+	height: 5px;
+	background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%);
+	border-radius: 15px;
+
 }
 
-.container{
-		width: 100%;
-		height: 796px;
-		border: 2px solid yellow;
+.skills4 {
+	width: 33.3%;
+	height: 90px;
+	float: left;
+	padding-left: 50px;
+	/*border: 2px solid blue;*/
 }
 
-.available{
-			width: 60%;
-			height: 110px;
-			margin: 0 auto;
-			border: 1px solid white;
-			margin-top: 120px;	
+.skills4 h4 {
+	margin-top: 20px;
+	font-size: 15px;
+	color: gray;
 }
 
-.available h3{
-			color: white;
-			text-align: center;
+.my_branding {
+	width: 100%;
+	height: 5px;
+	margin-top: 22px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #EEF2E6, #EEF2E6);
+	/*border: 1px solid blue;*/
 }
 
-.available p{
-			color: white;
-			text-align: center;
-			padding-top: 20px;
-			line-height: 1.6;
+.my-branding-progress {
+	width: 70%;
+	height: 5px;
+	background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%);
+	border-radius: 15px;
 }
 
-.vestibulum{
-		width: 25%;
-		height: 315px;
-		float: left;
-		border: 1px solid #828282;
-		margin-left: 12%;
-		margin-top: 70px;
-		border-radius: 4px;
-		background: rgba(255, 255, 255, 0.2);
+.skills5 {
+	width: 33.3%;
+	height: 90px;
+	float: left;
+	padding-left: 50px;
+	/*border: 2px solid blue;*/
 }
 
-.three_gride{
-			width: 85%;
-			height: 260px;
-			margin: 0 auto;
-			margin-top: 27px;
-			/*border: 1px solid orangered;*/
+.skills5 h4 {
+	margin-top: 20px;
+	font-size: 15px;
+	color: gray;
 }
 
-.colum{
+.my_development {
+	width: 100%;
+	height: 5px;
+	margin-top: 22px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #EEF2E6, #EEF2E6);
+	/*border: 1px solid blue;*/
+}
+
+.my-development-progress {
+	width: 90%;
+	height: 5px;
+	background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%);
+	border-radius: 15px;
+}
+
+
+.skills6 {
+	width: 33.3%;
+	height: 90px;
+	float: left;
+	padding-left: 50px;
+	/*border: 2px solid blue;*/
+}
+
+.skills6 h4 {
+	margin-top: 20px;
+	font-size: 15px;
+	color: gray;
+}
+
+.my_skills {
+	width: 100%;
+	height: 5px;
+	margin-top: 22px;
+	border-radius: 15px;
+	background: linear-gradient(to right, #EEF2E6, #EEF2E6);
+	/*border: 1px solid blue;*/
+}
+
+.my-skills-progress {
+	width: 80%;
+	height: 5px;
+	background: linear-gradient(to right, #35a22c 0%, #0ea8cf 100%);
+	border-radius: 15px;
+
+}
+
+.background_img {
+	width: 100%;
+	height: 800px;
+	margin-top: 10px;
+	/*border: 2px solid brown;*/
+	/* background-image: url('images/work-banner.jpg'); */
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: top;
+	position: relative;
+	z-index: 0;
+}
+
+.container {
+	width: 100%;
+	float: left;
+	background-color: rgba(0, 0, 0, 0.65);
+	height: 796px;
+	/*border: 2px solid yellow;*/
+}
+
+.available {
+	width: 60%;
+	height: 110px;
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+	margin-top: 120px;
+}
+
+.available h3 {
+	color: white;
+	text-align: center;
+}
+
+.available p {
+	color: white;
+	text-align: center;
+	padding-top: 20px;
+	line-height: 1.6;
+}
+
+.vestibulum {
+	width: 25%;
+	height: 315px;
+	float: left;
+	border: 1px solid #828282;
+	margin-left: 12%;
+	margin-top: 70px;
+	border-radius: 4px;
+	background: rgba(255, 255, 255, 0.2);
+}
+
+.vestibulum:hover {
+	background-color: black;
+}
+
+.vestibulum2:hover {
+	background-color: black;
+}
+
+.vestibulum3:hover {
+	background-color: black;
+}
+
+.three_gride {
+	width: 85%;
+	height: 260px;
+	margin: 0 auto;
+	margin-top: 27px;
+	/*border: 1px solid orangered;*/
+}
+
+.colum {
 	width: 25%;
 	height: 40px;
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 0 auto;
 }
 
-.vestibulum h4{
+.vestibulum h4 {
 	/*width: 100%;*/
 	/*height: 30px;*/
 	margin: 0 auto;
@@ -349,153 +446,519 @@ a:hover{
 	text-align: center;
 	margin-top: 30px;
 	font-size: 20px;
-	font-weight: 700;	
+	font-weight: 700;
 }
 
-.col2{
+.col2 {
 	color: white;
 	font-size: 16px;
 	padding-top: 20px;
 	text-align: center;
 	line-height: 1.4;
 }
-.vestibulum2{
-		width: 25%;
-		height: 315px;
-		float: left;
-		margin-top: 70px;
-		border: 1px solid #828282;
-		background: rgba(255, 255, 255, 0.2);
-		margin-left: 20px;
-		border-radius: 4px;		
+
+.vestibulum2 {
+	width: 25%;
+	height: 315px;
+	float: left;
+	margin-top: 70px;
+	/*border: 1px solid #828282;*/
+	background: rgba(255, 255, 255, 0.2);
+	margin-left: 20px;
+	border-radius: 4px;
 }
 
-.logo1{
-		width: 25%;
-		height: 40px;
-		margin: 0 auto;
-		border: 1px solid brown;
+.logo1 {
+	width: 25%;
+	height: 40px;
+	margin: 0 auto;
+	/*border: 1px solid brown;*/
 }
 
-.vestibulum2 h2{
-				font-size: 20px;
-				color: paleturquoise;
-				margin-top: 30px;
-				text-align: center;
-				font-weight: 700;
-}	
-.vestibulum3{
-		width: 25%;
-		height: 315px;
-		float: left;
-		margin-top: 70px;
-		background: rgba(255, 255, 255, 0.2);
-		border: 1px solid #828282;;
-		border-radius: 4px;
-		margin-left: 20px
-}
-.vestibulum3 h5{
-				font-size: 20px;
-				color: paleturquoise;
-				margin-top: 30px;
-				text-align: center;
-				font-weight: 700;
+.vestibulum2 h2 {
+	font-size: 20px;
+	color: paleturquoise;
+	margin-top: 30px;
+	text-align: center;
+	font-weight: 700;
 }
 
-.col3{
+.vestibulum3 {
+	width: 25%;
+	height: 315px;
+	float: left;
+	margin-top: 70px;
+	background: rgba(255, 255, 255, 0.2);
+	/*border: 1px solid #828282;*/
+	border-radius: 4px;
+	margin-left: 20px
+}
+
+.vestibulum3 h5 {
+	font-size: 20px;
+	color: paleturquoise;
+	margin-top: 30px;
+	text-align: center;
+	font-weight: 700;
+}
+
+.col3 {
 	color: white;
 	font-size: 16px;
 	padding-top: 20px;
-	text-align: center;																				https://asimequbal-portfolio.netlify.app/
-	line-height: 1.4;                    																	https://github.com/Asimequbal/asim-portfolio-website.git
+	text-align: center;
+	line-height: 1.4;
 }
 
-.all-project{
-			width: 100%;
-			height: 900px;
-			margin-top: 40px;
-			border: 2px solid navy;
+.work {
+	width: 100%;
+	/* height: 700px; */
+	float: left;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	/*border: 2px solid navy;*/
 }
 
-.main-heading{
-			width: 60%;
-			height: 130px;
-			margin: 0 auto;
-			border: 2px solid paleturquoise;
+.all-project-block {
+	width: 80%;
+	/* height: 900px; */
+	/*float: left;*/
+	/*background: red;*/
+	margin: 0 auto;
+}
+
+.main-heading {
+	width: 60%;
+	/*float: left;*/
+	height: 130px;
+	margin: 0 auto;
+	/*border: 2px solid paleturquoise;*/
 }
 
 .nulla{
-		font-size: 20px;
-		font-size: 33px;
-		line-height: 40px;
-		text-align: center;
+	font-size: 20px;
+	line-height: 40px;
+	text-align: center;
 }
+
 .tablete{
-		font-size: 15px;
-		text-align: center;
-		line-height: 20px;
-		color: #585858;
+	    font-size: 16px;
+    	text-align: center;
+    	line-height: 20px;
+    	color: #585858;
+	
 }
 
-.laptop_img{
-			width: 24%;
-    		height: 250px;
-			float: left;
-			border: 1px solid olive;
-			margin-left: 170px;
-			margin-top: 30px;
-			background-image: url(images/photo1.webp);
-			background-size: cover;
-			background-position: center;
-			border-radius: 4px;
-}
-
-.laptop_img2{
-			width: 24%;
-    		height: 250px;
-			float: left;
-			margin: 30px;
-			border: 1px solid olive;
-			background-image: url(images/photo2.jpg);
-			background-size: cover;
-			background-position: center
-			border-radius: 4px;
-}	
-
-
-.laptop_img3{
-			width: 24%;
-    		height: 250px;
-			float: left;
-			margin-top: 30px;
-			border: 1px solid olive;
-			background-image: url(https://thumbs.dreamstime.com/b/female-hands-typing-laptop-keyboard-screen-table-flowers-phone-female-hands-typing-laptop-keyboard-screen-101452063.jpg);
-			background-size: cover;
-			background-position: center;
-			border-radius: 4px;
-}	
-
-.book{
-	width: 24%;
+.laptop_img {
+	width: 31%;
 	height: 250px;
 	float: left;
-	margin-bottom: -220px;
-	border: 1px solid gray;
-		
+	/*border: 1px solid olive;*/
+	margin-top: 30px;
+	background-image: url(images/photo1.webp);
+	background-size: cover;
+	background-position: center;
+	border-radius: 4px;
 }
 
-.book1{
-		width: 24%;
-		height: 250px;
-		float: left;
-		margin-left: 170px;
-		border: 1px solid olive;
+.laptop_img2 {
+	width: 31%;
+	height: 250px;
+	float: left;
+	margin-top: 30px;
+	/*border: 1px solid olive;*/
+	background-image: url(images/laptop4.webp);
+	background-size: cover;
+	background-position: left;
+	border-radius: 4px;
+	margin-left: 28px;
+	margin-right: 28px;
 }
 
-.book2{
-		width: 24%;
-		height: 250px;
-		float: left;
-		border: 1px solid red;				
 
-}		
+.laptop_img3 {
+	width: 31%;
+	height: 250px;
+	float: left;
+	margin-top: 30px;
+	/*border: 1px solid olive;*/
+	background-image: url(https://thumbs.dreamstime.com/b/female-hands-typing-laptop-keyboard-screen-table-flowers-phone-female-hands-typing-laptop-keyboard-screen-101452063.jpg);
+	background-size: cover;
+	background-position: center;
+	border-radius: 4px;
+}
+
+.book {
+	width: 31%;
+	height: 250px;
+	float: left;
+	border-radius: 4px;
+	/*border: 1px solid #828282;*/
+	background-image: url(images/laptop.jpeg);
+	background-size: cover;
+	margin-top: 28px;
+}
+
+.book1 {
+	width: 31%;
+	height: 250px;
+	float: left;
+	/*border: 1px solid #828282;*/
+	border-radius: 4px;
+	background-image: url(https://media.istockphoto.com/photos/close-up-female-student-writing-down-notes-from-opened-textbook-picture-id1179756370?k=20&m=1179756370&s=612x612&w=0&h=BAlweO41QFKC8KbGNCUeI1jOAW9_EUtLR_8TAhq-6Is=);
+	background-size: cover;
+	background-position: center;
+	margin-left: 28px;
+	margin-right: 28px;
+	margin-top: 28px;
+}
+
+.book2 {
+	width: 31%;
+	height: 250px;
+	float: left;
+	/*border: 1px solid #828282;*/
+	border-radius: 4px;
+	background-image: url(images/laptop1.jpeg);
+	background-size: cover;
+	background-position: center;
+	margin-top: 28px;
+}
+
+.footar2 {
+	width: 100%;
+	/* height: 300px; */
+	float: left;
+	background: #222222;
+	/*border: 2px solid orangered;*/
+}
+
+
+.social_icon2 {
+	width: 70%;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+
+
+.footar1 {
+	width: 100%;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	background: #222222;
+	/*border: 2px solid orangered;*/
+}
+
+
+
+
+
+
+
+
+
+
+.black_background {
+	width: 100%;
+	height: 270px;
+	border: 2px solid brown;
+	background: #222222;
+}
+
+.social:hover {
+	background-color: #35a22ce0;
+}
+
+.social_icon {
+	width: 40%;
+	height: 190px;
+	margin: 0 auto;
+	margin-top: 40px;
+	border: 1px solid #44c3cc;
+
+}
+
+.social {
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding-top: 8px;
+	font-size: 18px;
+	border: solid 1px rgba(255, 255, 255, 0.3);
+	border-radius: 50px;
+}
+
+.my_website {
+	text-align: center;
+	color: #aaa;
+	padding-top: 40px;
+	font-size: 16px;
+}
+
+.border_line {
+	width: 100%;
+	margin-top: 40px;
+	border-bottom: 1px solid rgb(204, 203, 203);
+
+}
+
+.laptop_banner {
+	width: 100%;
+	height: 200px;
+	float: left;
+	/*border: 2px solid red;*/
+	background-image: linear-gradient(to right, rgba(42, 42, 42, 0.75), rgba(38, 40, 40, 0.79)), url(images/laptop9.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.from_row {
+	width: 100%;
+	height: 504px;
+	float: left;
+	margin-top: 81px;
+	/*border: 2px solid green;*/
+}
+
+.my_name1 {
+	width: 71%;
+	height: 500px;
+	margin: 0 auto;
+	/*border: 1px solid blue;*/
+}
+
+.box_container2 {
+	width: 50%;
+	float: left;
+	height: 500px;
+	/*border: 1px solid red;*/
+}
+
+.box_container3 {
+	width: 50%;
+	float: left;
+	height: 500px;
+	/*border: 1px solid red;*/
+}
+
+.phone_number {
+	width: 90%;
+	height: 70px;
+	float: left;
+	margin-top: 20px;
+	background: #f5f5f5;
+	/*border: 1px solid gray;*/
+}
+
+.phone_number h4 {
+	font-size: 16px;
+	padding-left: 50px;
+	padding-top: 25px;
+	color: #747474e0;
+}
+
+.map {
+	width: 100%;
+	float: left;
+	height: 455px;
+	margin-top: 2px;
+	/*border: 2px solid navy;*/
+}
+
+
+.social_icon1 {
+	width: 70%;
+	height: 170px;
+	margin: 0 auto;
+	margin-top: 50px;
+	text-align: center;
+	/*border: 1px solid red;*/
+}
+
+.social {
+	width: 44px;
+	height: 44px;
+	display: inline-block;
+	border: 1px solid #44c3cc;
+	border-radius: 50%;
+	margin: 14px 4px;
+	padding-top: 13px;
+	color: #aaa;
+}
+
+.mid_line {
+	width: 100%;
+	margin-top: 20px;
+	margin: 0 auto;
+	border-bottom: 1px solid rgb(204, 203, 203);
+}
+
+.bottom_text {
+	color: #aaa;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+.contact {
+	width: 100%;
+	/*height: 141vh;*/
+	padding-bottom: 80px;
+	clear: both;
+	/*border: 1px solid black;*/
+	clear: both;
+    background: #f8f8f8;
+}
+
+.contact1 {
+	width: 100%;
+	/*height: 520px;*/
+	margin-top: 30px;
+	/*border: 1px solid orange;*/
+	/*float: left;*/
+	/* margin-bottom: 80px; */
+}
+
+.contact_me {
+	color: #c3008b;
+	font-size: 25px;
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+.bold_address {
+	font-size: 18px;
+	padding-left: 30px;
+	padding-top: 20px;
+	font-weight: 700;
+	text-align: center;
+}
+
+.shadow {
+	font-size: 3.9em;
+	/*padding-left: 300px;*/
+	text-align: center;
+	padding-top: 30px;
+	font-weight: 700;
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 1px;
+	color: rgba(0, 0, 0, 0.2);
+	padding-top: 94px;
+}
+
+.bold_text {
+	font-size: 44px;
+	text-align: center;
+	margin-top: -42px;
+	font-weight: 600;
+	/*letter-spacing: 1px;*/
+	/*color: rgba(0, 0, 0, 0.2);*/
+}
+
+.description {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 21px;
+	color: rgba(0, 0, 0, 0.4);
+	line-height: 33px;
+	padding: 30px;
+	/*border: 1px solid black;*/
+}
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+	.section{
+		display: none;
+	}
+.mobile_menu{
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.683);
+	/*height: 50px;*/
+	position: fixed;
+	bottom: 0px;
+	display: flex;
+	align-items: center;
+	background: gray;
+	justify-content: center;
+}
+.mobile_menu ul{
+	list-style-type: none;
+}
+
+.mobile_menu li{
+	float: left;
+	text-decoration: none;
+	padding: 15px 14px;
+}
+.mobile_menu i{
+	color: white;
+}
+
+.bottom_text{
+			margin-top: 2px;
+
+}
+
+	.top_name{
+		font-size: 26px;
+	}
+	.developer1 {
+		font-size: 18px;
+	}
+	.logo{
+		padding-left: 0;
+	}
+	.site{
+		height: auto;
+	}
+	.skills1, .skills2, .skills3, .skills4, .skills5, .skills6{
+		width: 100%;
+	}
+	.colum, .logo1{
+		height: auto;
+	}
+	.vestibulum, .vestibulum2, .vestibulum3{
+		width: 94%;
+		margin-left: 10px;
+		height: 215px;
+	}
+	.vestibulum2{
+		height: 280px;
+	}
+	.available{
+		height: auto;
+	}
+	.container{
+		height: auto;
+		padding-bottom: 20px;
+	}
+	.all-project-block{
+		width: 100%;
+		float: left;
+	}
+	.main-heading{
+		width: 90%;
+		height: auto;
+	}
+	.laptop_img, .laptop_img2, .laptop_img3, .book, .book1, .book2{
+		width: 100%;
+		padding: 0;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+}
